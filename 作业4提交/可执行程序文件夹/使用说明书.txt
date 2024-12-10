@@ -1,0 +1,26 @@
+本程序的输入是tiny语言源程序，可以对符合输入规范的tiny语言源程序生成对应的四元组
+
+你输入的tiny语言源程序应该是如下的形式：
+1.
+TINY 语言的BNF语法规则如下：
+
+programstmt-sequence
+stmt-sequence stmt-sequence ；statement  |statement
+statement if-stmt |repeat-stmt |assign-stmt | read-stmt|write-stmt
+if-stmtif exp then stmt-sequence end 
+| if exp then stmt-sequence else stmt-sequence  end 
+repeat-stmtrepeat stmt-sequence until exp
+assign-stmtidentifier := exp
+read-stmtread identifier
+write-stmtwrite exp
+while exp do stmt_sequence enddo
+expsimple-exp comparison-op simple-exp |simple-exp
+comparison-exp < | =
+simple-expsimple-exp addop term  | term 
+addop + |-
+termterm mulop factor | factor 
+mulop * | /
+factor(exp) | number | identifier
+
+2.
+因为在实验要求中没有要求 and 和 or 的判断，所以请不要在条件判断语句中使用 and 和 or

@@ -1,0 +1,4 @@
+﻿  ConsoleApplication1.cpp
+C:\Users\86157\Desktop\大学本科\大三\编译原理\实验4\作业4提交\源程序文件夹\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(273,7): warning C4101: “str”: 未引用的局部变量
+C:\Users\86157\Desktop\大学本科\大三\编译原理\实验4\作业4提交\源程序文件夹\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(570,1): warning C4326: “main”的返回类型应为“int”而非“void”
+  ConsoleApplication1.vcxproj -> C:\Users\86157\Desktop\大学本科\大三\编译原理\实验4\作业4提交\源程序文件夹\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
